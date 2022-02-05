@@ -26,7 +26,7 @@ TODO: Add your explanation
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
 |initial|0|0|5|1.39421|
-|add_features|20|20|5|1.39421|
+|add_features|20|20|5|1.33164|
 |hpo|0|0|1| 1.32853|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
