@@ -6,11 +6,12 @@
 The first time without sapareting the date from hour the performance of the model was not so good, but improve with the data split. 
 
 ### What was the top ranked model that performed?
-TODO: Add your explanation
+It was LightGBM_BAG_L1.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-For the extra features I divided the datetime in month, day, year and hour. Also it was usefull to transform the season and weather features to categorical and plot the categorical histogram.
+the exploratory analysis showed what a distribution was like according to the series, generating a hypothesis that with the categories and division of the datetime field, perhaps the execution of the model would be better. What happened to the season after, and to divide datetime into day, year and hour and it will transform as characteristics of the season. Furthermore, with hyperparameters it is possible to adapt and test different models to perform better.
+
 
 ### How much better did your model preform after adding additional features and why do you think that is?
 It did improve the score because additional features can be good predictors to estimate the target value, in this case I decided to separate the date becuase it helps the model to analyse seasonality paterns in the data which can be usefull for a regression model.
@@ -32,15 +33,15 @@ Do a more extensive data analysis in order to get more information about this da
 ![Hyperparameter-table.png](img/Hyperparameter-table.PNG)
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-TODO: Replace the image below with your own.
 
 ![model_train_score.png](img/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-TODO: Replace the image below with your own.
+
 
 ![model_test_score.png](img/model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+In this project, the main objective is to predict bicycle demand from the library of historical bicycle data using an autogluon for various power models. At first I did all the necessary installation for executions, such as labs and connection to the kaggle API. The next step was to analyze the features in the training/test data for better performance. Then, the initial model was built with standard parameters and an exploratory analysis was carried out in relation to the model's performance.
+The next steps are to do feature engineering to test the model again with the default pattern. After that, I tested differents hyperparameter and model for get the better model performing. At the end, an announcement of the final score was made in Kaggle and the final analysis was made by plotting the score and obtaining the best performance of the model.
