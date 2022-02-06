@@ -17,10 +17,10 @@ It did improve the score because additional features can be good predictors to e
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-Hyper parameter tuning  did not improve model performance very much.
+Hyper parameter tuning with RF did improve model performance, comparing with NN model.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
-Do a more extensive data analysis in order to get more information about this dataset, so this wey I could decide witch model and hiperparameters would result in a better model.
+Do a more extensive data analysis in order to get more information about this dataset, so this wey I could decide witch model and hiperparameters would result in a better trained model.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
