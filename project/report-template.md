@@ -26,10 +26,10 @@ Do a more extensive data analysis in order to get more information about this da
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
 |initial|default_vals|default_vals|default_vals|0.54023|
-|add_features|default_vals|default_vals|default_vals|0.45916|
-|hpo|num_leaves: lower=26, upper=66|dropout_prob: 0.0, 0.5|50|?|
+|add_features|default_vals|default_vals|default_vals|0.46916|
+|hpo|regression|'GBM: num_boost_round: 100'|'FR:n_estimators: 300'|0.47809|
 
-![Hyperparameter-table.png](img/Hyperparameter-table.png)
+![Hyperparameter-table.png](img/Hyperparameter-table.PNG)
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 TODO: Replace the image below with your own.
